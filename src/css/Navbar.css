@@ -1,0 +1,114 @@
+.qHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+  background-color: white;   
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+.qHeader_logo >img {
+    height: 30px;
+    margin-right: 20px;
+}
+.qHeader_icons {
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+/*  Same as below! */
+/* .qHeader_icon > .MuiSvgIcon-root {
+    color: #8f1f1b;
+
+} */
+
+.qHeader_icon > .MuiSvgIcon-root {
+    color: gray;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 20px;
+
+}
+
+.qHeader_icon > .MuiSvgIcon-root :hover {
+    color: #8f1f1b;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+/* 
+.qHeader__icon > .MuiSvgIcon-root {
+    font-size: xx-large;
+    background-color: white;
+    padding: 5px 20px;
+    color: gray;
+  }
+  
+  .qHeader__icon > .MuiSvgIcon-root:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+    color: #b92b27;
+  } */
+
+  .qHeader_input {
+      display: flex;
+      align-items: center;
+     padding: 5px;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+
+  }
+
+  .qHeader_input >input {
+    background-color: transparent;
+    outline: none;    
+    border: none;
+    color: rgba(49,49,49);
+    
+}
+.qHeader_input > .MuiSvgIcon-root {
+   
+    color: gray;
+    
+}
+.qHeader_Rem {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.qHeader_Rem > .qHeader_avatar {
+    cursor: pointer;
+}
+.qHeader_Rem > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.qHeader_Rem > .MuiSvgIcon-root :hover{
+    
+    color: #8f1f1b;
+   
+}
+
+.qHeader_Rem > .MuiButton-root{
+  
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    background-color: #8f1f1b;
+    border-radius: 20px;
+    text-transform: inherit;
+}
+
+.qHeader_Rem > .MuiButton-root :hover{
+  
+    color: white;
+    background-color: #d6231d;
+    
+}
