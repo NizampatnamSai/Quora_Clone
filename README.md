@@ -84,3 +84,7 @@ const firebaseConfig = {
   measurementId: "G-5PB3XVXSF1"
 };
 
+
+<!-- Vercel link -->
+
+https://vercel.com/new/success?projectName=quora-clone&deploymentUrl=quora-clone-qjza9v3z2-nizampatnamsai.vercel.app&redirect-url=&developer-id=&external-id=&branch=main
