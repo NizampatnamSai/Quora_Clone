@@ -7,3 +7,9 @@
 /* .red {
   color: red;
 } */
+
+.todo {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 45%;
+}

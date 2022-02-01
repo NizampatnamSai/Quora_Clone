@@ -1,4 +1,7 @@
 .sidebar {
     margin-right: 10px;
     flex: 0.2;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }

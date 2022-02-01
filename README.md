@@ -72,4 +72,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- FIre base url -->
 https://console.firebase.google.com/project/quora-clone-7f246/firestore/data/~2F
 
+<!-- Config copy -->
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC8xsQiHy4rCQnNZ914P-wWuhnayppGbuo",
+  authDomain: "quora-clone-7f246.firebaseapp.com",
+  projectId: "quora-clone-7f246",
+  storageBucket: "quora-clone-7f246.appspot.com",
+  messagingSenderId: "118127471731",
+  appId: "1:118127471731:web:d3b7a74a4487373f010e06",
+  measurementId: "G-5PB3XVXSF1"
+};
 
