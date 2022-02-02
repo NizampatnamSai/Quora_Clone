@@ -17,7 +17,7 @@ export const questionSlice = createSlice({
 
 export const { setQuestionInfo } = questionSlice.actions;
 export const selectQuestionId = (state) => state.question.questionId
-export const selectQuestionName = (state) => state.question.questionName
+// export const selectQuestionName = (state) => state.question.questionName
 
 
 
